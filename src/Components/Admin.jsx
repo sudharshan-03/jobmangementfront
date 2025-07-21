@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "./Header";
 import Card from "./Card";
 import "../styles/admin.css";
-import { axiosInstance } from "../api/Api";
+import { axiosInstance } from "../api/api";
 import ModalForm from "./ModalForm";
 
 function Admin() {
