@@ -3,7 +3,7 @@ import axios from "axios";
 import "../styles/modalform.css";
 import vector from "../assets/Vector.svg";
 import right from "../assets/right.svg";
-import { axiosInstance } from "../api/Api";
+import { axiosInstance } from "../api/api";
 
 function ModalForm({toggle, toggleChange}) {
   const [formData, setFormData] = useState({
