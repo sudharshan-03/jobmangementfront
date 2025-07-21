@@ -1,0 +1,140 @@
+.fullPage {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* height: 1000%; */
+}
+
+.form {
+  width: 60%;
+  height: fit-content;
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 30px 40px;
+  margin: 120px 0;
+}
+
+.form form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  gap: 1rem;
+}
+
+.form h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.formInput {
+  width: 48%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formInput label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.formInput input,
+.formInput select {
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: inherit;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.formInput input::placeholder {
+  font-size: 16px;
+}
+
+.formInput select {
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../assets/down.svg");
+  background-repeat: no-repeat;
+  background-position: right 5px center;
+  background-size: 2em;
+  padding-right: 3em;
+}
+
+.salary {
+  display: flex;
+  gap: 8px;
+}
+
+.salary input {
+  width: 50%;
+}
+
+input[type="date"]::placeholder {
+  color: transparent;
+}
+
+.formTextarea {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formTextarea label {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.formTextarea textarea {
+  height: 170px;
+  padding: 12px;
+  font-family: inherit;
+  resize: vertical;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.btn-grp {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-grp button {
+  width: 200px;
+  padding: 16px 60px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.save {
+  background: #ffffff;
+  border: 1.5px solid #222222;
+  box-shadow: 0px 0px 4px 0px #00000040;
+}
+
+.publish {
+  background: #00aaff;
+  color: white;
+  border: none;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 4px;
+  display: block;
+}

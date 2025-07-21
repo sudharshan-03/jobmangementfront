@@ -1,0 +1,89 @@
+.cardContainer {
+  width: 316px;
+  height: 360px;
+  border-radius: 12px;
+  box-shadow: 0 0 14px #a38c8c26;
+  padding: 1rem;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.imageContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.imgContainer {
+  width: 83.46428680419922px;
+  height: 82px;
+  opacity: 1;
+  border-radius: 13.18px;
+  border: 1px solid #ffffff;
+  background: linear-gradient(180deg, #fefefd 0%, #f1f1f1 100%);
+  box-shadow: 0px 0px 10.25px 0px #94949440;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContainer img {
+  width: 65.89286041259766px;
+  height: 65.89286041259766px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.time {
+  width: 75px;
+  height: 33px;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 7px 10px;
+  background-color: #b0d9ff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.details {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail {
+  display: flex;
+  gap: 4px;
+  font-weight: 500;
+  color: #5a5a5a;
+}
+
+.description {
+  font-size: 14px;
+  padding: 0 16px;
+  margin-block: 4px;
+}
+
+.description li {
+  text-align: justify;
+}
+
+.apply {
+  background-color: #00aaff;
+  height: 46px;
+  border-radius: 10px;
+  padding: 12px 10px;
+  border: 1px solid #00aaff;
+  box-shadow: 0px 0px 14px 0px #5d5d5d26;
+  font-family: inherit;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
